@@ -40,7 +40,7 @@ car_labels = label_encoder_car_name.inverse_transform([car_name_encoded])[0]
 
 # Now we will plot the visualization
 fig, ax = plt.subplots()
-ax.bar('Average Selling Price', actual_prices.mean(), label='Actual Selling Price')
+ax.bar('Average Selling Price', actual_prices.mean(), label='Average Selling Price')
 ax.bar('Your Predicted Selling Price', predicted_selling_price, label='Predicted Selling Price')
 ax.set_title(f'Average Selling Price for {car_labels} in {year_input}')
 ax.set_ylabel('Price')
