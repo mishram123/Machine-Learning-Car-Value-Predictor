@@ -55,4 +55,5 @@ Enter Transmission (Automatic or Manual): Manual
 
 - The program assumes that the input values are valid and match the format of the training data.
 - Ensure the 'cardekho_data.csv' file is in the same directory as the script.
+![Screenshot 2024-01-06 162034](https://github.com/mishram123/Machine-Learning-Car-Value-Predictor/assets/56270716/fa00b869-d838-4b74-a72d-9a8d06224975)
 
